@@ -13,12 +13,12 @@ const Header: FC<any> = () => {
     return(
         <>
 
-            <header className="bg-cloudBurst w-full sm:sticky sm:top-0 flex justify-between sm:px-15 px-5 py-5 items-center tracking-wide">
+            <header className="bg-cloudBurst w-full sm:sticky sm:top-0 flex justify-between sm:px-15 px-5 py-5 items-center tracking-wide z-1">
 
                 {/* logo section */}
                 <div className="sm:w-auto w-20 cursor-pointer">
                     <Image
-                    src="/images/logo.png"
+                    src="/images/logo.jpg"
                     alt="logo"
                     width={150}
                     height={100}
@@ -28,7 +28,7 @@ const Header: FC<any> = () => {
                 </div>
 
                 {/* navigation links */}
-                <nav className="font-semibold sm:flex hidden gap-8 text-tahunaSands text-lg items-center">
+                <nav className="font-semibold sm:flex hidden gap-8 text-tahunaSands text-lg items-center ml-auto">
                     <Link href="/">
                         Hakkımızda
                     </Link>
@@ -80,11 +80,11 @@ const SidebarMobile = () => {
                 </button>
             </div>
             {isNavShown && (
-                <div className="bg-kashmirBlue text-cloudBurst rounded-3xl rounded-e-none w-64 fixed top-0 right-0 h-full transition-transform duration-300 p-5 text-sm flex flex-col gap-7">
+                <div className="bg-kashmirBlue text-cloudBurst rounded-3xl rounded-e-none w-64 fixed top-0 right-0 h-full transition-transform duration-300 p-5 text-sm flex flex-col gap-7 z-1">
                     <div className="flex justify-between items-start">
                         <div>
                             <Image
-                            src="/images/logo.png"
+                            src="/images/logo.jpg"
                             alt="logo"
                             width={150}
                             height={100}

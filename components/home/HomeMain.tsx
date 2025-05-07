@@ -1,10 +1,13 @@
+import About from "./About";
+import Banner from "./Banner"
 
 
 const HomeMain = () => {
 
     return(
         <>
-           <p>ana sayfa</p>
+           <Banner/>
+           <About/>
         </>
        
     )

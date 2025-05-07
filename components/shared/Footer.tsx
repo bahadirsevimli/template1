@@ -14,7 +14,7 @@ const Footer: FC<any> = () => {
                     {/* logo section */}
                     <div>
                         <Image
-                        src="/images/logo.png"
+                        src="/images/logo.jpg"
                         alt="logo"
                         width={180}
                         height={100}
