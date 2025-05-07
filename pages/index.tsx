@@ -1,14 +1,5 @@
-import Head from "next/head";
+import HomeMain from "@/components/home/HomeMain";
 
 export default function Home(){
-    
-    return(
-        <>
-            <Head>
-                <title>test | test</title>
-                <meta name="test" content="test"/>
-            </Head>
-            <p>selam</p>
-        </>
-    )
+    return <HomeMain/>
 }

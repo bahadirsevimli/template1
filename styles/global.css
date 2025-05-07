@@ -1,1 +1,8 @@
 @import "tailwindcss";
+
+@theme{
+    --color-cloudBurst: #213448;
+    --color-tahunaSands: #ECEFCA;
+    --color-kashmirBlue: #547792;
+    --color-nepal: #94B4C1;
+}
