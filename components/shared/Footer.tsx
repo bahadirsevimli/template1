@@ -6,6 +6,8 @@ import Link from "next/link";
 
 const Footer: FC<any> = () => {
 
+    
+
 
     return(
         <>

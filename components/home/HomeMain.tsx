@@ -1,15 +1,23 @@
-import About from "./About";
-import Banner from "./Banner"
+import GetContactForm from "../shared/forms/GetContactForm";
+import AboutCom from "./AboutCom";
+import BannerSlider from "./Banner";
+import SliderSm from "./SliderSm";
+
+
+
 
 
 const HomeMain = () => {
 
     return(
         <>
-           <Banner/>
-           <About/>
-        </>
-       
+           <div>
+            <div><BannerSlider/></div>
+            <div><AboutCom/></div>
+            <div className="my-10"><SliderSm/></div>
+            <div><GetContactForm/></div>
+           </div>
+        </>  
     )
 
 }
